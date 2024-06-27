@@ -2,10 +2,10 @@
 
 import 'package:flutter/material.dart';
 import 'package:gym_bud/Core/colors.dart';
-import 'package:gym_bud/Pages/WorkoutPage/workout_page.dart';
+import 'package:gym_bud/Pages/WorkoutTab/WorkoutPage/workout_page.dart';
 import 'package:gym_bud/Pages/HomePage/home_page_content.dart';
 import 'package:gym_bud/Pages/LibraryPage/library_page.dart';
-import 'package:gym_bud/Pages/MealPage/meal_page.dart';
+import 'package:gym_bud/Pages/MealTab/MealPage/meal_page.dart';
 import 'package:gym_bud/Pages/MenuPage/menu_page.dart';
 
 class HomePage extends StatefulWidget {
@@ -30,7 +30,8 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       backgroundColor: kBackgroundColor,
       appBar: AppBar(
-        leading: const Icon(Icons.fitness_center),
+        title: const Icon(Icons.fitness_center),
+        centerTitle: true,
       ),
       body: _pages[_selectedIndex],
       bottomNavigationBar: BottomNavigationBar(
