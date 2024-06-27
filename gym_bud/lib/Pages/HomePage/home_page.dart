@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:gym_bud/Core/colors.dart';
-import 'package:gym_bud/Pages/AddPage/workout_page.dart';
+import 'package:gym_bud/Pages/WorkoutPage/workout_page.dart';
 import 'package:gym_bud/Pages/HomePage/home_page_content.dart';
 import 'package:gym_bud/Pages/LibraryPage/library_page.dart';
 import 'package:gym_bud/Pages/MealPage/meal_page.dart';
